@@ -26,3 +26,6 @@ leap n = (n `isDivisor` 4 &&
     isDivisor :: Int -> Int -> Bool
     isDivisor n m = n `mod` m == 0
 
+absolute :: Int -> Int
+absolute x | x >= 0    = x
+           | otherwise = negate x
