@@ -7,4 +7,3 @@ conj xs = red (&&) True xs
 
 prod :: [Int] -> Int
 prod xs = red (*) 1 xs
-
