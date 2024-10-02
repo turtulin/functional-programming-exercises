@@ -1,3 +1,5 @@
+-- This is a logarithmic time complexity implementation of the Fibonacci sequence.
+
 type Vector = (Integer, Integer)
 type Matrix = (Vector, Vector)
 

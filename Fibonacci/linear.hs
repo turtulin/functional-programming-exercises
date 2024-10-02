@@ -1,3 +1,5 @@
+-- This is a linear time implementation of the Fibonacci function.
+
 fibo :: Int -> Integer
 fibo k = go 0 1 k
     where

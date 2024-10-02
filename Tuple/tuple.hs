@@ -1,3 +1,5 @@
+-- In this exercise we will define a few functions that work with tuples.
+
 use :: (Int, Int) -> Int
 use (m, n) = 2 * m + n
 

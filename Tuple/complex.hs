@@ -1,3 +1,5 @@
+-- In this file we define a few functions that work with complex numbers.
+
 type Complex = (Double, Double)
 
 add :: (Complex, Complex) -> Complex

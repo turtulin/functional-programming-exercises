@@ -1,9 +1,11 @@
+-- This file contains the implementation of the map function
+
 myMap :: (a -> b) -> [a] -> [b]
 myMap _ [] = []
 myMap f (x : xs) = f x : myMap f xs
 
 neg :: [Bool] -> [Bool]
-neg xs = myMap not xs
+neg = myMap not
 
 next :: [Int] -> [Int]
-next xs = myMap succ xs
+next = myMap succ
